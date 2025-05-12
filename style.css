@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    background-color: #dcacac;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    background-color: #fdfdfc;
+}
+
+header {
+    background-image: url("./img/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+main {
+    padding: 50px;
+}
+
+#introduction {
+    margin-bottom: 50px;
+}
+
+#introduction>h1 {
+    margin-bottom: 20px;
+    color: #a10101;
+    font-size: 1.8rem;
+}
+
+#introduction>p {
+    background-color: #ebeaea;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: .9rem;
+}
+
+#ingredients, #instructions {
+    margin-bottom: 50px;
+}
+
+#ingredients>h2, #instructions>h2, #serving>h2 {
+    margin-bottom: 15px;
+}
+
+#ingredients>h2>span {
+    font-weight: 400;
+}
+
+#ingredients>ul, #instructions>ol {
+    padding-left: 30px;
+}
+
+#serving-images {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 10px;
+    width: 100%;
+}
+
+#serving-images>img {
+    width: 45%;
+    background-position: center;
+    background-size: cover;
+}
