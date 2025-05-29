@@ -3,6 +3,7 @@
     padding: 0;
     font-family: sans-serif;
 }
+
 body {
     background-color: #dcacac;
 }
@@ -41,11 +42,14 @@ main {
     font-size: .9rem;
 }
 
-#ingredients, #instructions {
+#ingredients,
+#instructions {
     margin-bottom: 50px;
 }
 
-#ingredients>h2, #instructions>h2, #serving>h2 {
+#ingredients>h2,
+#instructions>h2,
+#serving>h2 {
     margin-bottom: 15px;
 }
 
@@ -53,7 +57,8 @@ main {
     font-weight: 400;
 }
 
-#ingredients>ul, #instructions>ol {
+#ingredients>ul,
+#instructions>ol {
     padding-left: 30px;
 }
 
@@ -65,8 +70,12 @@ main {
     width: 100%;
 }
 
-#serving-images>img {
+#serving-images>figure {
     width: 45%;
+}
+
+#serving-images>figure>img {
+    width: 100%;
     background-position: center;
     background-size: cover;
 }
